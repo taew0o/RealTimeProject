@@ -1,0 +1,33 @@
+{
+  "name": "realtimeproject",
+  "version": "1.0.0",
+  "description": "실시간 채팅 + 실시간 위치 반영 기능을 가진 풀스택 토이 프로젝트",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "prepare": "husky install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taew0o/RealTimeProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taew0o/RealTimeProject/issues"
+  },
+  "homepage": "https://github.com/taew0o/RealTimeProject#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
+    "husky": "^9.1.7"
+  }
+}
